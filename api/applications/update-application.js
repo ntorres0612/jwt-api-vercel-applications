@@ -17,7 +17,6 @@ module.exports = async (req, res) => {
         return res.status(405).json({ error: "Método no permitido" });
     }
 
-
     try {
 
         const response = await axios.post(
