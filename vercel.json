@@ -21,7 +21,7 @@
         },
         {
             "src": "/update-application",
-            "dest": "/api/application/update-application.js"
+            "dest": "/api/applications/update-application.js"
         }
     ]
 }
