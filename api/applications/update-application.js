@@ -19,18 +19,18 @@ module.exports = async (req, res) => {
 
     try {
 
-        const response = await axios.post(
-            "https://api.retool.com/v1/workflows/bbe51cf9-caa5-4810-8835-ae3b5c599331/startTrigger",
-            data,
-            {
-                headers: {
-                    "Content-Type": "application/json",
-                    "X-Workflow-Api-Key": "retool_wk_0d81193d3dfb450bb9d45b37c16f7dd6"
-                }
-            }
-        );
+        // const response = await axios.post(
+        //     "https://api.retool.com/v1/workflows/bbe51cf9-caa5-4810-8835-ae3b5c599331/startTrigger",
+        //     data,
+        //     {
+        //         headers: {
+        //             "Content-Type": "application/json",
+        //             "X-Workflow-Api-Key": "retool_wk_0d81193d3dfb450bb9d45b37c16f7dd6"
+        //         }
+        //     }
+        // );
 
-        res.status(200).json(response.data);
+        res.status(200).json(data);
     } catch (error) {
         console.error("Error en proxy:", error.response?.data || error.message);
         res.status(500).json({
