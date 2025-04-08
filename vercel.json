@@ -26,6 +26,14 @@
         {
             "src": "/evaluate",
             "dest": "/api/evaluations/evaluate.js"
+        },
+        {
+            "src": "/get-max-terms",
+            "dest": "/api/terms/get-max-terms.js"
+        },
+        {
+            "src": "/update-max-terms",
+            "dest": "/api/terms/update-max-terms.js"
         }
     ]
 }
