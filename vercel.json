@@ -22,6 +22,10 @@
         {
             "src": "/update-application",
             "dest": "/api/applications/update-application.js"
+        },
+        {
+            "src": "/evaluate",
+            "dest": "/api/evaluations/evaluate.js"
         }
     ]
 }
