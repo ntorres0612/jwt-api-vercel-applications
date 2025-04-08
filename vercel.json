@@ -12,10 +12,6 @@
             "dest": "/api/applications/applications.js"
         },
         {
-            "src": "/delete-application",
-            "dest": "/api/applications/delete-application.js"
-        },
-        {
             "src": "/create-application",
             "dest": "/api/applications/create-application.js"
         },
